@@ -12,10 +12,6 @@ updates:
       time: "15:18"
       timezone: "Europe/London"
 
-    labels:
-      - dependencies
-      - python
-
     groups:
       python-dependencies:
         patterns:
@@ -32,10 +28,6 @@ updates:
       time: "15:18"
       timezone: "Europe/London"
 
-    labels:
-      - dependencies
-      - rust
-
     groups:
       rust-dependencies:
         patterns:
@@ -51,10 +43,6 @@ updates:
       day: "tuesday"
       time: "15:18"
       timezone: "Europe/London"
-
-    labels:
-      - dependencies
-      - github-actions
 
     groups:
       github-actions:
