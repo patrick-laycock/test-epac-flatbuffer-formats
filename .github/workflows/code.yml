@@ -14,9 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v7
         with:
           python-version: "3.10"
       - name: Set up development environment
@@ -32,7 +32,7 @@ jobs:
     runs-on: [self-hosted, python3.10]
     steps:
       - name: Check out code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
       - name: Set up development environment
         run: ./dev.py setup venv
       - name: Run pre-commit hooks
@@ -45,9 +45,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v7
         with:
           python-version: "3.10"
       - name: Set up development environment
@@ -65,7 +65,7 @@ jobs:
         working-directory: rust/epac-flatbuffer-formats-rs
     steps:
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Install rustfmt and clippy
         run: rustup component add rustfmt clippy
       - name: Check formatting
