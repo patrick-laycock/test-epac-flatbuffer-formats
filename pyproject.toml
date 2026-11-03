@@ -1,13 +1,13 @@
 [build-system]
-requires = ["setuptools>=64", "setuptools_scm[toml]>=6.2", "wheel"]
+requires = ["setuptools>=84.2.1", "setuptools_scm[toml]>=10.3.4", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "epac-flatbuffer-formats"
 dependencies = [
-    "flatbuffers==23.5.26",
-    "numpy~=2.0",
-    "pydantic~=2.10"
+    "flatbuffers==25.12.19",
+    "numpy~=2.5",
+    "pydantic~=2.14"
 ]
 dynamic = ["version"]
 
@@ -22,7 +22,7 @@ dev = [
     "pdoc",
     "hypothesis",
     "p4p",
-    "maturin>=1.14.1"
+    "maturin>=1.16.0"
 ]
 
 [tool.setuptools_scm]
