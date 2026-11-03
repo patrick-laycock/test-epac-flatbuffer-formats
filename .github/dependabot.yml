@@ -9,7 +9,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "tuesday"
-      time: "14:35"
+      time: "15:18"
       timezone: "Europe/London"
 
     labels:
@@ -29,7 +29,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "tuesday"
-      time: "14:35"
+      time: "15:18"
       timezone: "Europe/London"
 
     labels:
@@ -49,7 +49,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "tuesday"
-      time: "14:35"
+      time: "15:18"
       timezone: "Europe/London"
 
     labels:
